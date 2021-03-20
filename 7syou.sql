@@ -41,7 +41,7 @@ INSERT INTO 部門 VALUES(30, '情報システム');
 USE sampleDB
 SELECT * 
 FROM 社員 INNER JOIN 部門
-ON 社員.部門番号 =　部門.部門番号;
+ON 社員.部門番号 = 部門.部門番号;
 
 SELECT 社員.*, 部門名
 FROM 社員 RIGHT OUTER JOIN 部門
