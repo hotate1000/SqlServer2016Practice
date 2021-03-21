@@ -41,3 +41,7 @@ DELETE FROM 社員 WHERE 社員番号 = 4;
 DELETE FROM 社員 WHERE 社員番号 = 5;
 DELETE FROM 社員 WHERE 社員番号 = 6;
 GO
+
+-- 一時テーブル
+SELECT * FROM #TEST
+INSERT INTO #TEST VALUES(1, 'A');
