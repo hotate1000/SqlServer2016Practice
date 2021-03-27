@@ -74,7 +74,6 @@ End Class
 
 
 -- 更新と複数実行
-
 Imports System.Data.SqlClient
 
 Public Class Form1
